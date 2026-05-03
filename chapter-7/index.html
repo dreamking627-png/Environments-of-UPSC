@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>अध्याय 7: अभयारण्य, आर्द्रभूमि एवं अन्य संरक्षित क्षेत्र | भाग चुनें</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<button class="dark-toggle" id="darkModeToggle">🌙</button>
+
+<div class="header">
+    <h1>🌿 अध्याय 7: अभयारण्य, आर्द्रभूमि एवं अन्य संरक्षित क्षेत्र</h1>
+    <p>Sanctuary, Wetland and other Protected Region (190 प्रश्न | 19 भाग)</p>
+</div>
+
+<div class="container">
+    <div class="parts-grid" id="partsGrid"></div>
+    <div class="back-home-container">
+        <a href="../index.html" class="back-home">🏠 मुख्य पृष्ठ पर लौटें</a>
+    </div>
+</div>
+
+<div class="footer">
+    <p>📚 UPSC / State PSC परीक्षाओं पर आधारित | प्रत्येक भाग में 10 प्रश्न</p>
+</div>
+
+<script>
+    function initDarkMode() {
+        const saved = localStorage.getItem('darkMode');
+        const toggle = document.getElementById('darkModeToggle');
+        if (saved === 'enabled') {
+            document.body.classList.add('dark-mode');
+            toggle.textContent = '☀️';
+        } else {
+            document.body.classList.remove('dark-mode');
+            toggle.textContent = '🌙';
+        }
+        toggle.addEventListener('click', () => {
+            document.body.classList.toggle('dark-mode');
+            const isDark = document.body.classList.contains('dark-mode');
+            localStorage.setItem('darkMode', isDark ? 'enabled' : 'disabled');
+            toggle.textContent = isDark ? '☀️' : '🌙';
+        });
+    }
+
+    function renderParts() {
+        const totalParts = 19;
+        const questionsPerPart = 10;
+        const grid = document.getElementById('partsGrid');
+        let html = '';
+        for (let i = 1; i <= totalParts; i++) {
+            const startQ = (i - 1) * questionsPerPart + 1;
+            const endQ = i * questionsPerPart;
+            html += `
+                <a href="../viewer.html?chapter=7&part=${i}" class="part-card">
+                    <div class="part-number">भाग ${i}</div>
+                    <div class="part-range">प्रश्न ${startQ} - ${endQ}</div>
+                </a>
+            `;
+        }
+        grid.innerHTML = html;
+    }
+
+    initDarkMode();
+    renderParts();
+</script>
+</body>
+</html>

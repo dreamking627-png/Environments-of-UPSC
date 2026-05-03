@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>अध्याय - Coming Soon | पर्यावरण एवं पारिस्थितिकी</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        :root {
+            --bg: #f0f4f8;
+            --card-bg: #ffffff;
+            --text: #1e293b;
+            --primary: #2d6a4f;
+            --header-bg: #0f3b2c;
+        }
+
+        body.dark-mode {
+            --bg: #0f172a;
+            --card-bg: #1e293b;
+            --text: #f1f5f9;
+            --header-bg: #020617;
+        }
+
+        body {
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            transition: background 0.3s, color 0.3s;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .header {
+            background: var(--header-bg);
+            color: white;
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+        .header h1 { font-size: 1.5rem; margin-bottom: 0.5rem; }
+        .header p { font-size: 0.85rem; opacity: 0.9; }
+
+        .dark-toggle {
+            position: fixed;
+            top: 1rem;
+            right: 1rem;
+            background: var(--primary);
+            color: #0f172a;
+            border: none;
+            width: 2.5rem;
+            height: 2.5rem;
+            border-radius: 50%;
+            font-size: 1.2rem;
+            cursor: pointer;
+            z-index: 1000;
+        }
+
+        .container {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 2rem;
+        }
+
+        .coming-soon-card {
+            background: var(--card-bg);
+            border-radius: 1rem;
+            padding: 2rem;
+            text-align: center;
+            max-width: 500px;
+            margin: 0 auto;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        .coming-soon-icon {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+        }
+
+        .coming-soon-title {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 1rem;
+        }
+
+        .coming-soon-text {
+            font-size: 1rem;
+            margin-bottom: 1.5rem;
+            color: var(--text-secondary, #666);
+        }
+
+        .back-home {
+            display: inline-block;
+            padding: 0.6rem 1.2rem;
+            background: var(--primary);
+            color: #0f172a;
+            text-decoration: none;
+            border-radius: 2rem;
+            font-weight: 500;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 1rem;
+            background: var(--header-bg);
+            color: white;
+            font-size: 0.7rem;
+        }
+    </style>
+</head>
+<body>
+
+<button class="dark-toggle" id="darkModeToggle">🌙</button>
+
+<div class="header">
+    <h1>🌿 पर्यावरण एवं पारिस्थितिकी</h1>
+    <p id="chapterInfo">अध्याय - Coming Soon</p>
+</div>
+
+<div class="container">
+    <div class="coming-soon-card">
+        <div class="coming-soon-icon">🚧</div>
+        <div class="coming-soon-title">Coming Soon</div>
+        <div class="coming-soon-text">
+            यह अध्याय अभी तैयार नहीं है।<br>
+            जल्द ही प्रश्न उपलब्ध होंगे।
+        </div>
+        <a href="../index.html" class="back-home">🏠 मुख्य पृष्ठ पर लौटें</a>
+    </div>
+</div>
+
+<div class="footer">
+    <p>📚 UPSC / State PSC परीक्षाओं पर आधारित</p>
+</div>
+
+<script>
+    function initDarkMode() {
+        const saved = localStorage.getItem('darkMode');
+        const toggle = document.getElementById('darkModeToggle');
+        if (saved === 'enabled') {
+            document.body.classList.add('dark-mode');
+            toggle.textContent = '☀️';
+        } else {
+            document.body.classList.remove('dark-mode');
+            toggle.textContent = '🌙';
+        }
+        toggle.addEventListener('click', () => {
+            document.body.classList.toggle('dark-mode');
+            const isDark = document.body.classList.contains('dark-mode');
+            localStorage.setItem('darkMode', isDark ? 'enabled' : 'disabled');
+            toggle.textContent = isDark ? '☀️' : '🌙';
+        });
+    }
+
+    function updateChapterInfo() {
+        const path = window.location.pathname;
+        const match = path.match(/chapter-(\d+)/);
+        if (match) {
+            const chapterNum = match[1];
+            document.getElementById('chapterInfo').innerHTML = `अध्याय ${chapterNum}: Coming Soon - जल्द आ रहा है`;
+        }
+    }
+
+    initDarkMode();
+    updateChapterInfo();
+</script>
+</body>
+</html>

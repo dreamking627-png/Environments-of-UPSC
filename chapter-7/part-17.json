@@ -1,0 +1,142 @@
+[
+  {
+    "id": 161,
+    "text": "भारत में Crocodile की तीन प्रजातियाँ पाई जाती हैं। इनमें से सबसे दुर्लभ कौन सी है?",
+    "options": {
+      "a": "Mugger Crocodile",
+      "b": "Saltwater Crocodile",
+      "c": "Gharial",
+      "d": "Marsh Crocodile"
+    },
+    "correctAnswer": "c",
+    "exam": "UPPCS (Pre) 2019",
+    "analysis": "घड़ियाल (Gavialis gangeticus) भारत में पाई जाने वाली Crocodile प्रजातियों में सबसे दुर्लभ है और IUCN की Critically Endangered श्रेणी में है। भारत में Mugger (Crocodylus palustris), Saltwater Crocodile (Crocodylus porosus) और Gharial — तीन प्रजातियाँ हैं। घड़ियाल केवल गंगा बेसिन में पाया जाता है।",
+    "imageQuery": "घड़ियाल Gharial Critically Endangered गंगा नदी"
+  },
+  {
+    "id": 162,
+    "text": "भारत में 'National Zoological Park' (राष्ट्रीय प्राणी उद्यान) कहाँ स्थित है?",
+    "options": {
+      "a": "मुंबई",
+      "b": "नई दिल्ली",
+      "c": "कोलकाता",
+      "d": "हैदराबाद"
+    },
+    "correctAnswer": "b",
+    "exam": "UPPCS (Pre) 2016",
+    "analysis": "National Zoological Park नई दिल्ली में स्थित है जिसे Delhi Zoo के नाम से भी जाना जाता है। यह 1959 में स्थापित हुआ था। भारत का सबसे ऊँचाई पर स्थित Zoo Padmaja Naidu Himalayan Zoological Park (दार्जिलिंग, पश्चिम बंगाल) है। Central Zoo Authority (CZA) Zoo को regulate करती है।",
+    "imageQuery": "National Zoological Park नई दिल्ली Delhi Zoo"
+  },
+  {
+    "id": 163,
+    "text": "भारत में सर्वाधिक ऊँचाई पर स्थित Zoological Park कौन सा है?",
+    "options": {
+      "a": "Himalayan Zoological Park, Gangtok",
+      "b": "Padmaja Naidu Himalayan Zoological Park, Darjeeling",
+      "c": "Leh Zoo, Ladakh",
+      "d": "Kumaon Zoological Park, Nainital"
+    },
+    "correctAnswer": "b",
+    "exam": "UP PSC (Pre) 2020",
+    "analysis": "Padmaja Naidu Himalayan Zoological Park दार्जिलिंग (पश्चिम बंगाल) में स्थित भारत का सबसे ऊँचाई पर स्थित Zoological Park है। यह Snow Leopard, Red Panda और Himalayan Wolf के संरक्षण के लिए प्रसिद्ध है। इसकी ऊँचाई लगभग 7000 फीट है।",
+    "imageQuery": "Padmaja Naidu Himalayan Zoological Park दार्जिलिंग Snow Leopard"
+  },
+  {
+    "id": 164,
+    "text": "भारत में 'Ex-situ Conservation' (स्वस्थानेतर संरक्षण) के उदाहरण कौन से हैं?",
+    "options": {
+      "a": "राष्ट्रीय उद्यान और अभयारण्य",
+      "b": "Botanical Gardens, Zoos, Seed Banks और Tissue Culture",
+      "c": "Biosphere Reserves",
+      "d": "Community Reserves"
+    },
+    "correctAnswer": "b",
+    "exam": "UPPCS (Pre) 2018",
+    "analysis": "Ex-situ Conservation में प्रजातियों को उनके प्राकृतिक आवास के बाहर संरक्षित किया जाता है — जैसे Botanical Gardens, Zoos, Seed Banks, Gene Banks और Tissue Culture। In-situ Conservation में प्रजातियों को उनके प्राकृतिक आवास में संरक्षित किया जाता है जैसे NP, WLS, Biosphere Reserves।",
+    "imageQuery": "Ex-situ Conservation Botanical Garden Zoo Seed Bank"
+  },
+  {
+    "id": 165,
+    "text": "भारत में 'National Gene Bank' कहाँ स्थित है?",
+    "options": {
+      "a": "नई दिल्ली",
+      "b": "पुणे",
+      "c": "देहरादून",
+      "d": "हैदराबाद"
+    },
+    "correctAnswer": "a",
+    "exam": "UPPCS (Pre) 2019",
+    "analysis": "भारत का National Gene Bank नई दिल्ली में National Bureau of Plant Genetic Resources (NBPGR) में स्थित है। यह भारत का सबसे बड़ा Gene Bank है जिसमें लाखों Plant Genetic Resources सुरक्षित हैं। NBPGR Indian Agricultural Research Institute (IARI) परिसर में है।",
+    "imageQuery": "National Gene Bank नई दिल्ली NBPGR बीज संरक्षण"
+  },
+  {
+    "id": 166,
+    "text": "सिंधु-गंगा के मैदानी क्षेत्र में कौन सी Raptor (शिकारी पक्षी) प्रजाति बड़ी संख्या में पाई जाती है?",
+    "options": {
+      "a": "Amur Falcon",
+      "b": "Steppe Eagle",
+      "c": "Imperial Eagle",
+      "d": "White-tailed Eagle"
+    },
+    "correctAnswer": "b",
+    "exam": "UPPCS (Pre) 2021",
+    "analysis": "Steppe Eagle (Aquila nipalensis) सर्दियों में सिंधु-गंगा के मैदानी क्षेत्र में बड़ी संख्या में पाई जाती है। यह मध्य एशिया से प्रवास करके भारत आती है। यह IUCN की Endangered श्रेणी में है। भारत के मैदानी क्षेत्र इसके प्रमुख शीतकालीन आवास हैं।",
+    "imageQuery": "Steppe Eagle गंगा मैदान शीतकालीन प्रवास शिकारी पक्षी"
+  },
+  {
+    "id": 167,
+    "text": "भारत में 'Mangrove Cell' की स्थापना किसने की है?",
+    "options": {
+      "a": "वन विभाग",
+      "b": "पर्यावरण मंत्रालय (MoEFCC)",
+      "c": "IUCN India",
+      "d": "WWF India"
+    },
+    "correctAnswer": "b",
+    "exam": "UPPCS (Pre) 2020",
+    "analysis": "पर्यावरण, वन एवं जलवायु परिवर्तन मंत्रालय (MoEFCC) ने Mangrove Cell की स्थापना की है। भारत में Mangrove संरक्षण के लिए MISHTI (Mangrove Initiative for Shoreline Habitats and Tangible Incomes) कार्यक्रम 2023 के Budget में घोषित किया गया। भारत में 4921 वर्ग किमी Mangrove वन हैं।",
+    "imageQuery": "Mangrove Cell MoEFCC MISHTI भारत मैंग्रोव 2023"
+  },
+  {
+    "id": 168,
+    "text": "भारत में 'Ramsar Wetland City Accreditation' प्राप्त करने वाला पहला शहर कौन सा है?",
+    "options": {
+      "a": "भोपाल",
+      "b": "इंदौर",
+      "c": "उदयपुर",
+      "d": "श्रीनगर"
+    },
+    "correctAnswer": "a",
+    "exam": "UPPCS (Pre) 2023",
+    "analysis": "भोपाल (मध्य प्रदेश) को Ramsar Wetland City Accreditation मिली है। इसमें भोज ताल (Upper Lake और Lower Lake) प्रमुख रामसर स्थल हैं। यह सम्मान उन शहरों को मिलता है जो अपनी आर्द्रभूमियों के संरक्षण में उत्कृष्ट प्रयास करते हैं। यह 2022-2023 में दिया गया।",
+    "imageQuery": "भोपाल Ramsar Wetland City भोज ताल मध्य प्रदेश"
+  },
+  {
+    "id": 169,
+    "text": "पश्चिमी घाट को UNESCO विश्व प्राकृतिक धरोहर कब घोषित किया गया?",
+    "options": {
+      "a": "2010",
+      "b": "2012",
+      "c": "2014",
+      "d": "2016"
+    },
+    "correctAnswer": "b",
+    "exam": "UPPCS (Pre) 2018",
+    "analysis": "पश्चिमी घाट (Western Ghats) को UNESCO ने 2012 में विश्व प्राकृतिक धरोहर घोषित किया। इसमें केरल, कर्नाटक, तमिलनाडु और गोवा के 39 स्थल शामिल हैं। यह भारत के प्राकृतिक UNESCO Sites में सबसे विस्तृत है। यह Agasthyamalai, Periyar और Nilgiri जैसे महत्वपूर्ण क्षेत्रों को शामिल करता है।",
+    "imageQuery": "पश्चिमी घाट UNESCO 2012 विश्व धरोहर Western Ghats"
+  },
+  {
+    "id": 170,
+    "text": "भारत का 'राष्ट्रीय पक्षी' मोर (Peacock) किस वर्ष घोषित किया गया?",
+    "options": {
+      "a": "1950",
+      "b": "1963",
+      "c": "1972",
+      "d": "1975"
+    },
+    "correctAnswer": "b",
+    "exam": "UPPCS (Pre) 2017",
+    "analysis": "भारतीय मोर (Pavo cristatus) को 1963 में भारत का राष्ट्रीय पक्षी घोषित किया गया। यह वन्यजीव संरक्षण अधिनियम 1972 की अनुसूची-I में है। मोर का शिकार और व्यापार पूर्णतः प्रतिबंधित है। यह हिन्दू संस्कृति में भगवान कार्तिकेय का वाहन है।",
+    "imageQuery": "मोर Peacock भारत राष्ट्रीय पक्षी 1963 Pavo cristatus"
+  }
+] 

@@ -1,0 +1,142 @@
+[ 
+  {
+    "id": 121,
+    "text": "भारत के किस राज्य में 'Aichi Biodiversity Targets' के तहत सर्वाधिक संरक्षित क्षेत्र हैं?",
+    "options": {
+      "a": "मध्य प्रदेश",
+      "b": "महाराष्ट्र",
+      "c": "अण्डमान निकोबार",
+      "d": "उत्तराखण्ड"
+    },
+    "correctAnswer": "c",
+    "exam": "UPPCS (Pre) 2021",
+    "analysis": "Aichi Biodiversity Targets CBD (Convention on Biological Diversity) के Nagoya Protocol से संबंधित हैं जिनके अनुसार 2020 तक 17% भूमि और 10% समुद्री क्षेत्र संरक्षित करना था। अण्डमान-निकोबार में सर्वाधिक Marine Protected Areas हैं। भारत इन लक्ष्यों को प्राप्त करने में सक्रिय है।",
+    "imageQuery": "Aichi Biodiversity Targets CBD Nagoya Protocol भारत"
+  },
+  {
+    "id": 122,
+    "text": "UNESCO Man and Biosphere (MAB) Programme के तहत Biosphere Reserve के कितने Zone होते हैं?",
+    "options": {
+      "a": "2 (Core और Buffer)",
+      "b": "3 (Core, Buffer और Transition)",
+      "c": "4 (Core, Buffer, Transition और Experimental)",
+      "d": "5"
+    },
+    "correctAnswer": "b",
+    "exam": "UPPCS (Pre) 2017",
+    "analysis": "UNESCO Man and Biosphere (MAB) Programme के तहत Biosphere Reserve तीन जोन में विभाजित होता है — Core Zone (पूर्ण संरक्षण), Buffer Zone (सीमित उपयोग) और Transition Zone (मानव गतिविधियाँ)। Core Zone में मानव प्रवेश पूर्णतः वर्जित होता है। भारत में 18 Biosphere Reserves में से 12 UNESCO MAB में शामिल हैं।",
+    "imageQuery": "Biosphere Reserve तीन Zone Core Buffer Transition UNESCO MAB"
+  },
+  {
+    "id": 123,
+    "text": "पन्ना राष्ट्रीय उद्यान (मध्य प्रदेश) से बाघ क्यों विलुप्त हो गए थे और कैसे वापस लाए गए?",
+    "options": {
+      "a": "बाढ़ से विलुप्त हुए, प्रजनन कार्यक्रम से वापस आए",
+      "b": "शिकार से विलुप्त हुए, बांधवगढ़ और कान्हा से बाघ लाए गए",
+      "c": "बीमारी से विलुप्त हुए, विदेश से लाए गए",
+      "d": "वन काटने से विलुप्त हुए"
+    },
+    "correctAnswer": "b",
+    "exam": "MPPSC (Pre) 2021",
+    "analysis": "पन्ना राष्ट्रीय उद्यान से बाघ मुख्यतः अवैध शिकार (Poaching) के कारण 2009 तक लगभग विलुप्त हो गए। फिर बांधवगढ़ और कान्हा से बाघ लाकर यहाँ पुनर्स्थापित किए गए। यह भारत का सबसे सफल Tiger Reintroduction कार्यक्रम माना जाता है। अब पन्ना में पुनः अच्छी संख्या में बाघ हैं।",
+    "imageQuery": "पन्ना राष्ट्रीय उद्यान बाघ पुनर्स्थापन शिकार मध्य प्रदेश"
+  },
+  {
+    "id": 124,
+    "text": "भारत में Biodiversity Act किस वर्ष पारित हुआ?",
+    "options": {
+      "a": "1992",
+      "b": "1997",
+      "c": "2002",
+      "d": "2005"
+    },
+    "correctAnswer": "c",
+    "exam": "UPPCS (Pre) 2016",
+    "analysis": "भारत में Biological Diversity Act 2002 में पारित हुआ। इसके तहत National Biodiversity Authority (NBA) की स्थापना की गई जिसका मुख्यालय चेन्नई में है। यह CBD (Convention on Biological Diversity) 1992 के अनुरूप बनाया गया। इसमें Biodiversity Management Committees (BMCs) का प्रावधान है।",
+    "imageQuery": "जैव विविधता अधिनियम 2002 NBA भारत CBD"
+  },
+  {
+    "id": 125,
+    "text": "Convention on Biological Diversity (CBD) पर हस्ताक्षर किस सम्मेलन में हुए?",
+    "options": {
+      "a": "Stockholm Conference 1972",
+      "b": "Rio Earth Summit 1992",
+      "c": "Kyoto Protocol 1997",
+      "d": "Nagoya Protocol 2010"
+    },
+    "correctAnswer": "b",
+    "exam": "UPPCS (Pre) 2018",
+    "analysis": "Convention on Biological Diversity (CBD) पर Rio de Janeiro में आयोजित Earth Summit 1992 में हस्ताक्षर हुए। यह 1993 में लागू हुआ। CBD के तीन मुख्य उद्देश्य हैं — जैव विविधता संरक्षण, सतत उपयोग और आनुवंशिक संसाधनों से होने वाले लाभों का न्यायपूर्ण बँटवारा।",
+    "imageQuery": "CBD Convention Biological Diversity Rio Earth Summit 1992"
+  },
+  {
+    "id": 126,
+    "text": "भारत में National Biodiversity Authority (NBA) का मुख्यालय कहाँ है?",
+    "options": {
+      "a": "नई दिल्ली",
+      "b": "बेंगलुरु",
+      "c": "चेन्नई",
+      "d": "देहरादून"
+    },
+    "correctAnswer": "c",
+    "exam": "UPPCS (Pre) 2019",
+    "analysis": "National Biodiversity Authority (NBA) का मुख्यालय चेन्नई (तमिलनाडु) में है। इसकी स्थापना Biological Diversity Act 2002 के अंतर्गत 2003 में की गई। यह देश में जैव विविधता के संरक्षण, सतत उपयोग और Access and Benefit Sharing (ABS) को नियंत्रित करता है।",
+    "imageQuery": "NBA National Biodiversity Authority चेन्नई भारत"
+  },
+  {
+    "id": 127,
+    "text": "वन (संरक्षण) अधिनियम (Forest Conservation Act) भारत में किस वर्ष पारित हुआ?",
+    "options": {
+      "a": "1972",
+      "b": "1974",
+      "c": "1980",
+      "d": "1988"
+    },
+    "correctAnswer": "c",
+    "exam": "UPPCS (Pre) 2017",
+    "analysis": "वन संरक्षण अधिनियम 1980 में पारित हुआ। इसके अनुसार वन भूमि का गैर-वन उद्देश्यों के लिए उपयोग करने के लिए केंद्र सरकार की पूर्व अनुमति आवश्यक है। 2023 में इस अधिनियम में संशोधन किया गया जो विवादास्पद रहा। भारतीय वन अधिनियम 1927 अलग है।",
+    "imageQuery": "वन संरक्षण अधिनियम 1980 भारत वन भूमि"
+  },
+  {
+    "id": 128,
+    "text": "Wetlands (Conservation and Management) Rules भारत में किस वर्ष बने?",
+    "options": {
+      "a": "2010",
+      "b": "2013",
+      "c": "2017",
+      "d": "2019"
+    },
+    "correctAnswer": "c",
+    "exam": "UPSC IAS (Pre) 2022",
+    "analysis": "Wetlands (Conservation and Management) Rules 2017 में बने। ये नियम पहले 2010 के नियमों की जगह लाए गए। इनके तहत राज्य स्तरीय Wetland Authority की स्थापना का प्रावधान है। ये नियम रामसर संधि के प्रावधानों को भारत में लागू करने में सहायक हैं।",
+    "imageQuery": "Wetlands Conservation Management Rules 2017 भारत रामसर"
+  },
+  {
+    "id": 129,
+    "text": "IUCN की Red List में 'Critically Endangered' श्रेणी में निम्नलिखित में से कौन सा है?",
+    "options": {
+      "a": "बंगाल टाइगर",
+      "b": "भारतीय गैंडा",
+      "c": "ग्रेट इंडियन बस्टर्ड",
+      "d": "गंगा डॉल्फिन"
+    },
+    "correctAnswer": "c",
+    "exam": "UPPCS (Pre) 2022",
+    "analysis": "Great Indian Bustard (गोडावण — Ardeotis nigriceps) IUCN की Critically Endangered श्रेणी में है। इसकी संख्या 150 से भी कम रह गई है। बंगाल टाइगर और गंगा डॉल्फिन Endangered श्रेणी में हैं जबकि भारतीय गैंडा Vulnerable श्रेणी में है। गोडावण राजस्थान का राज्य पक्षी है।",
+    "imageQuery": "Great Indian Bustard गोडावण Critically Endangered IUCN"
+  },
+  {
+    "id": 130,
+    "text": "IUCN का पूरा नाम क्या है?",
+    "options": {
+      "a": "International Union for Conservation of Nature",
+      "b": "International United Council for Nature",
+      "c": "International Union for Conservation of Natural Resources",
+      "d": "International Union for Climate and Nature"
+    },
+    "correctAnswer": "a",
+    "exam": "UPPCS (Pre) 2015",
+    "analysis": "IUCN का पूरा नाम International Union for Conservation of Nature है। इसकी स्थापना 1948 में हुई और इसका मुख्यालय ग्लैंड, स्विट्जरलैंड में है। यह विश्व का सबसे बड़ा और पुराना प्रकृति संरक्षण संगठन है जो Red List प्रकाशित करता है।",
+    "imageQuery": "IUCN International Union Conservation Nature ग्लैंड स्विट्जरलैंड"
+  }
+]

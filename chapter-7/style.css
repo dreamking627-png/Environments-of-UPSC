@@ -1,0 +1,127 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+    --bg: #f0f4f8;
+    --card-bg: #ffffff;
+    --text: #1e293b;
+    --text-secondary: #475569;
+    --border: #cbd5e1;
+    --primary: #2d6a4f;
+    --header-bg: #0f3b2c;
+    --btn-shadow: rgba(0,0,0,0.1);
+}
+
+body.dark-mode {
+    --bg: #0f172a;
+    --card-bg: #1e293b;
+    --text: #f1f5f9;
+    --text-secondary: #cbd5e1;
+    --border: #334155;
+    --primary: #4ade80;
+    --header-bg: #020617;
+    --btn-shadow: rgba(0,0,0,0.3);
+}
+
+body {
+    font-family: 'Segoe UI', 'Noto Sans', system-ui, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    transition: background 0.3s, color 0.3s;
+}
+
+.header {
+    background: var(--header-bg);
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.header h1 { font-size: 1.3rem; margin-bottom: 0.5rem; }
+.header p { font-size: 0.85rem; opacity: 0.9; }
+
+.dark-toggle {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    background: var(--primary);
+    color: #0f172a;
+    border: none;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1.5rem;
+}
+
+.parts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 1rem;
+}
+
+.part-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 1rem;
+    padding: 1rem;
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+    text-decoration: none;
+    display: block;
+    color: var(--text);
+}
+
+.part-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 16px var(--btn-shadow);
+    border-color: var(--primary);
+}
+
+.part-number {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.3rem;
+}
+
+.part-range {
+    font-size: 0.7rem;
+    color: var(--text-secondary);
+}
+
+.back-home-container {
+    text-align: center;
+}
+
+.back-home {
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 0.5rem 1rem;
+    background: var(--primary);
+    color: #0f172a;
+    text-decoration: none;
+    border-radius: 2rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+    padding: 1rem;
+    background: var(--header-bg);
+    color: white;
+    margin-top: 2rem;
+    font-size: 0.7rem;
+}
+
+@media (max-width: 640px) {
+    .parts-grid { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }
+    .header h1 { font-size: 1rem; }
+}

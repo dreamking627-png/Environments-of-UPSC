@@ -1,0 +1,142 @@
+[
+  {
+    "id": 171,
+    "text": "भारत का 'राष्ट्रीय पशु' बाघ (Tiger) किस वर्ष घोषित किया गया?",
+    "options": {
+      "a": "1969",
+      "b": "1973",
+      "c": "1972",
+      "d": "1975"
+    },
+    "correctAnswer": "b",
+    "exam": "UPPCS (Pre) 2016",
+    "analysis": "बाघ (Panthera tigris) को 1973 में भारत का राष्ट्रीय पशु घोषित किया गया। इससे पहले शेर (Lion) राष्ट्रीय पशु था। 1973 में ही Project Tiger शुरू किया गया। Tiger Census 2022 के अनुसार भारत में 3167 बाघ हैं जो विश्व के कुल बाघों का 70% है।",
+    "imageQuery": "बाघ Tiger भारत राष्ट्रीय पशु 1973 Panthera tigris"
+  },
+  {
+    "id": 172,
+    "text": "Elephant को भारत में 'National Heritage Animal' कब घोषित किया गया?",
+    "options": {
+      "a": "1992",
+      "b": "2000",
+      "c": "2010",
+      "d": "2015"
+    },
+    "correctAnswer": "c",
+    "exam": "UPPCS (Pre) 2019",
+    "analysis": "भारतीय हाथी (Elephas maximus) को 2010 में भारत का 'National Heritage Animal' घोषित किया गया। इससे पहले Project Elephant 1992 में शुरू हुआ था। हाथी को Schedule I में रखा गया है। भारत में लगभग 30000 हाथी हैं और कर्नाटक में सर्वाधिक हैं।",
+    "imageQuery": "हाथी National Heritage Animal 2010 भारत Project Elephant"
+  },
+  {
+    "id": 173,
+    "text": "भारत में 'Butterfly' (तितली) की सर्वाधिक प्रजातियाँ किस राज्य में पाई जाती हैं?",
+    "options": {
+      "a": "केरल",
+      "b": "सिक्किम",
+      "c": "अरुणाचल प्रदेश",
+      "d": "तमिलनाडु"
+    },
+    "correctAnswer": "c",
+    "exam": "UPPCS (Pre) 2021",
+    "analysis": "अरुणाचल प्रदेश में भारत की सर्वाधिक तितली प्रजातियाँ पाई जाती हैं। यह इंडो-बर्मा Biodiversity Hotspot का हिस्सा है। सिक्किम को 'Butterfly Paradise of India' भी कहते हैं। इंडो-बर्मा क्षेत्र उष्णकटिबंधीय जैव विविधता के लिए विश्वप्रसिद्ध है।",
+    "imageQuery": "तितली अरुणाचल प्रदेश जैव विविधता Butterfly India"
+  },
+  {
+    "id": 174,
+    "text": "भारत में 'Aravalli Biodiversity Park' कहाँ स्थित है?",
+    "options": {
+      "a": "जयपुर",
+      "b": "गुरुग्राम",
+      "c": "नई दिल्ली",
+      "d": "अलवर"
+    },
+    "correctAnswer": "c",
+    "exam": "UPPCS (Pre) 2022",
+    "analysis": "Aravalli Biodiversity Park नई दिल्ली के वसंत कुंज में स्थित है। यह दिल्ली का एकमात्र Biodiversity Park है जो Aravalli पर्वत श्रृंखला के अवशिष्ट वन क्षेत्र पर बना है। दिल्ली में कई Biodiversity Parks हैं जो शहरी जैव विविधता संरक्षण के उदाहरण हैं।",
+    "imageQuery": "Aravalli Biodiversity Park नई दिल्ली वसंत कुंज"
+  },
+  {
+    "id": 175,
+    "text": "COP15 (15th Conference of Parties to CBD) कहाँ और किस वर्ष आयोजित हुआ?",
+    "options": {
+      "a": "Glasgow, 2021",
+      "b": "Kunming (China) और Montreal (Canada), 2022",
+      "c": "Paris, 2023",
+      "d": "Nairobi, 2020"
+    },
+    "correctAnswer": "b",
+    "exam": "UPPCS (Pre) 2023",
+    "analysis": "CBD का COP15 दो भागों में आयोजित हुआ — पहला Kunming (China) में 2021 में और दूसरा Montreal (Canada) में दिसम्बर 2022 में। इसमें '30x30 Target' अपनाया गया जिसके तहत 2030 तक विश्व की 30% भूमि और 30% समुद्र को संरक्षित करना है। इसे Kunming-Montreal Global Biodiversity Framework कहते हैं।",
+    "imageQuery": "COP15 CBD Kunming Montreal 2022 30x30 जैव विविधता"
+  },
+  {
+    "id": 176,
+    "text": "भारत में 'Biological Diversity (Amendment) Act' किस वर्ष पारित हुआ?",
+    "options": {
+      "a": "2019",
+      "b": "2021",
+      "c": "2023",
+      "d": "2024"
+    },
+    "correctAnswer": "c",
+    "exam": "UPPCS (Pre) 2023",
+    "analysis": "Biological Diversity (Amendment) Act 2023 में पारित हुआ। इसमें AYUSH क्षेत्र और स्थानीय समुदायों के लिए कुछ छूट दी गई। इसके तहत Registered AYUSH Practitioners को Biological Resources के उपयोग के लिए NBA से अनुमति नहीं लेनी होगी। यह संशोधन विवादास्पद रहा।",
+    "imageQuery": "Biological Diversity Amendment Act 2023 AYUSH NBA"
+  },
+  {
+    "id": 177,
+    "text": "भारत में 'MISHTI' कार्यक्रम किसके लिए है?",
+    "options": {
+      "a": "बाघ संरक्षण",
+      "b": "Mangrove वन पुनर्स्थापन और संरक्षण",
+      "c": "आर्द्रभूमि संरक्षण",
+      "d": "पर्वतीय जैव विविधता"
+    },
+    "correctAnswer": "b",
+    "exam": "UPPCS (Pre) 2023",
+    "analysis": "MISHTI (Mangrove Initiative for Shoreline Habitats and Tangible Incomes) कार्यक्रम 2023 के Union Budget में घोषित किया गया। यह Mangrove वनों के संरक्षण और पुनर्स्थापन के साथ-साथ तटीय समुदायों की आजीविका सुधार के लिए है। यह MGNREGS और CAMPA Funds से जुड़ा है।",
+    "imageQuery": "MISHTI Mangrove Initiative 2023 Budget तटीय संरक्षण"
+  },
+  {
+    "id": 178,
+    "text": "भारत में 'Amrit Dharohar Scheme' किसके लिए है?",
+    "options": {
+      "a": "ऐतिहासिक स्मारकों के लिए",
+      "b": "Ramsar Wetlands के संरक्षण और पर्यावरण-पर्यटन के लिए",
+      "c": "Tiger Reserves के लिए",
+      "d": "जनजातीय क्षेत्रों के लिए"
+    },
+    "correctAnswer": "b",
+    "exam": "UPPCS (Pre) 2023",
+    "analysis": "Amrit Dharohar Scheme 2023 के Union Budget में घोषित की गई। इसका उद्देश्य भारत के Ramsar Wetlands का संरक्षण और Eco-tourism को बढ़ावा देना है। इसके तहत Wetlands की unique values को preserve करते हुए स्थानीय समुदायों की आजीविका बढ़ाने का लक्ष्य है।",
+    "imageQuery": "Amrit Dharohar Scheme 2023 Ramsar Wetland Eco-tourism"
+  },
+  {
+    "id": 179,
+    "text": "IUCN Red List में 'Vulnerable' श्रेणी में निम्नलिखित में से कौन सा है?",
+    "options": {
+      "a": "Great Indian Bustard",
+      "b": "एक सींग वाला भारतीय गैंडा",
+      "c": "गंगा डॉल्फिन",
+      "d": "घड़ियाल"
+    },
+    "correctAnswer": "b",
+    "exam": "UPPCS (Pre) 2022",
+    "analysis": "एक सींग वाला भारतीय गैंडा (Rhinoceros unicornis) IUCN की Vulnerable श्रेणी में है। Great Indian Bustard और Gharial Critically Endangered में हैं। गंगा डॉल्फिन Endangered में है। गैंडे की संख्या में सुधार के कारण इसे Endangered से Vulnerable में लाया गया — यह संरक्षण की सफलता का उदाहरण है।",
+    "imageQuery": "भारतीय गैंडा Vulnerable IUCN काजीरंगा संरक्षण सफलता"
+  },
+  {
+    "id": 180,
+    "text": "भारत में 'SECURE Himalaya' परियोजना किसके लिए है?",
+    "options": {
+      "a": "हिमालय के ग्लेशियर संरक्षण",
+      "b": "हिमालय के उच्च ऊँचाई वाले जैव विविधता और Snow Leopard संरक्षण",
+      "c": "हिमालय में पर्यटन विकास",
+      "d": "हिमालयी नदियों का प्रबंधन"
+    },
+    "correctAnswer": "b",
+    "exam": "UPPCS (Pre) 2022",
+    "analysis": "SECURE Himalaya (Securing Livelihoods, Conservation, Sustainable Use and Restoration of High Range Himalayan Ecosystems) परियोजना UNDP और GEF के सहयोग से चलाई जा रही है। इसका उद्देश्य हिमालय के उच्च ऊँचाई वाले पारिस्थितिकी तंत्र और Snow Leopard का संरक्षण करना है। यह J&K, HP, UK और Sikkim में लागू है।",
+    "imageQuery": "SECURE Himalaya Snow Leopard UNDP GEF उच्च ऊँचाई"
+  }
+]  

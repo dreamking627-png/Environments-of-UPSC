@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <title>पर्यावरण एवं पारिस्थितिकी | अध्यायवार हल प्रश्न-पत्र</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root { --bg: #f0f4f8; --card-bg: #ffffff; --text: #1e293b; --text-secondary: #475569; --border: #cbd5e1; --primary: #2d6a4f; --primary-hover: #1b4d3e; --header-bg: #0f3b2c; --btn-shadow: rgba(0,0,0,0.1); }
+        body.dark-mode { --bg: #0f172a; --card-bg: #1e293b; --text: #f1f5f9; --text-secondary: #cbd5e1; --border: #334155; --primary: #4ade80; --primary-hover: #22c55e; --header-bg: #020617; --btn-shadow: rgba(0,0,0,0.3); }
+        body { font-family: 'Segoe UI', 'Noto Sans', system-ui, sans-serif; background: var(--bg); color: var(--text); transition: background 0.3s, color 0.3s; }
+        
+        .header { background: var(--header-bg); color: white; padding: 1rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
+        .header h1 { font-size: 1.3rem; }
+        .header p { font-size: 0.85rem; opacity: 0.9; margin-top: 5px; }
+        
+        .dark-toggle { background: var(--primary); color: #0f172a; border: none; width: 2.5rem; height: 2.5rem; border-radius: 50%; font-size: 1.2rem; cursor: pointer; }
+        
+        .user-info { display: flex; align-items: center; gap: 0.8rem; background: rgba(255,255,255,0.15); padding: 0.3rem 0.8rem; border-radius: 2rem; }
+        .user-avatar { width: 32px; height: 32px; border-radius: 50%; object-fit: cover; }
+        .user-name { font-size: 0.8rem; font-weight: 500; }
+        .google-btn { background: white; color: #1e293b; border: none; padding: 0.3rem 0.8rem; border-radius: 2rem; cursor: pointer; font-size: 0.75rem; font-weight: 500; display: flex; align-items: center; gap: 0.3rem; }
+        .logout-btn { background: #ef4444; color: white; border: none; padding: 0.3rem 0.8rem; border-radius: 2rem; cursor: pointer; font-size: 0.75rem; font-weight: 500; }
+        
+        .auth-section-hidden { display: none; }
+        .auth-section-visible { display: flex; }
+        .header-left { flex: 1; }
+        .header-controls { display: flex; gap: 0.8rem; align-items: center; }
+        
+        .container { max-width: 1200px; margin: 2rem auto; padding: 0 1.5rem; }
+        .chapter-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.5rem; }
+        .chapter-card { background: var(--card-bg); border: 1px solid var(--border); border-radius: 1rem; padding: 1.5rem; text-align: center; transition: transform 0.2s, box-shadow 0.2s; text-decoration: none; display: block; color: var(--text); }
+        .chapter-card:hover { transform: translateY(-5px); box-shadow: 0 10px 20px var(--btn-shadow); border-color: var(--primary); }
+        .chapter-number { font-size: 2rem; font-weight: 700; color: var(--primary); margin-bottom: 0.5rem; }
+        .chapter-title-en { font-size: 1rem; font-weight: 600; margin-bottom: 0.5rem; }
+        .chapter-title-hi { font-size: 0.85rem; color: var(--text-secondary); }
+        
+        .footer { text-align: center; padding: 1.5rem; background: var(--header-bg); color: white; margin-top: 2rem; font-size: 0.8rem; }
+        
+        /* Login Popup */
+        .login-popup { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); display: flex; justify-content: center; align-items: center; z-index: 1000; }
+        .login-popup.hidden { display: none; }
+        .login-popup-content { background: var(--card-bg); border-radius: 1rem; padding: 2rem; text-align: center; max-width: 350px; width: 90%; position: relative; }
+        .close-modal-btn { position: absolute; top: 10px; right: 15px; background: none; border: none; font-size: 1.5rem; cursor: pointer; color: var(--text-secondary); }
+        .google-signin-btn { background: #4285F4; color: white; border: none; padding: 0.8rem 1rem; border-radius: 2rem; cursor: pointer; font-size: 1rem; width: 100%; display: flex; align-items: center; justify-content: center; gap: 0.5rem; }
+        .skip-login-btn { background: transparent; color: var(--text-secondary); border: 1px solid var(--border); padding: 0.6rem 1rem; border-radius: 2rem; cursor: pointer; margin-top: 1rem; width: 100%; }
+        
+        @media (max-width: 640px) { .chapter-grid { grid-template-columns: 1fr; } .header h1 { font-size: 1rem; } .header { flex-direction: column; text-align: center; } .header-controls { justify-content: center; } }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <div class="header-left">
+        <h1>🌿 पर्यावरण एवं पारिस्थितिकी</h1>
+        <p>Environment & Ecology | अध्यायवार हल प्रश्न-पत्र</p>
+    </div>
+    <div class="header-controls">
+        <div id="authSection">
+            <button id="loginBtn" class="google-btn">🔑 Google Sign In</button>
+            <div id="userInfo" class="auth-section-hidden user-info">
+                <img id="userAvatar" class="user-avatar" src="" alt="Avatar">
+                <span id="userName" class="user-name"></span>
+                <button id="logoutBtn" class="logout-btn">🚪 Sign Out</button>
+            </div>
+        </div>
+        <button class="dark-toggle" id="darkModeToggle">🌙</button>
+    </div>
+</div>
+
+<!-- Login Popup Modal -->
+<div id="loginPopup" class="login-popup hidden">
+    <div class="login-popup-content">
+        <button class="close-modal-btn" onclick="closeLoginModal()">✕</button>
+        <h3>🔐 अपनी प्रगति सेव करें</h3>
+        <p>Google लॉगिन करें और अपने उत्तर सेव करें!<br>✕ बंद करें = बिना लॉगिन जारी रखें</p>
+        <button id="googleSignInBtn" class="google-signin-btn">G Google Sign In</button>
+        <button id="skipLoginBtn" class="skip-login-btn">✕ अभी नहीं, बिना लॉगिन जारी रखें</button>
+    </div>
+</div>
+
+<div class="container">
+    <div class="chapter-grid" id="chapterGrid"></div>
+</div>
+
+<div class="footer">
+    <p>📚 UPSC एवं राज्य सेवा आयोगों के पूर्व वर्षों के प्रश्नों पर आधारित</p>
+    <p>💡 अध्याय 7: अभयारण्य, आर्द्रभूमि एवं अन्य संरक्षित क्षेत्र (19 भाग, 190 प्रश्न) | 🔑 लॉगिन करें</p>
+</div>
+
+<!-- Firebase SDK -->
+<script type="module">
+    // ============================================================
+    // FIREBASE CONFIGURATION (YOUR EXISTING KEYS)
+    // ============================================================
+    const firebaseConfig = {
+        apiKey: "AIzaSyCUKmZynkkDzwEuTALLK_dqSw950iEUTKU",
+        authDomain: "environment-of-upsc-30e35.firebaseapp.com",
+        projectId: "environment-of-upsc-30e35",
+        storageBucket: "environment-of-upsc-30e35.firebasestorage.app",
+        messagingSenderId: "304521196007",
+        appId: "1:304521196007:web:51ab02f4e3240fd7e7cd42"
+    };
+    // ============================================================
+    
+    import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js';
+    import { getAuth, signInWithPopup, GoogleAuthProvider, onAuthStateChanged, signOut } from 'https://www.gstatic.com/firebasejs/10.8.0/firebase-auth.js';
+    
+    const app = initializeApp(firebaseConfig);
+    const auth = getAuth(app);
+    const provider = new GoogleAuthProvider();
+    
+    let currentUser = null;
+    
+    const loginBtn = document.getElementById('loginBtn');
+    const logoutBtn = document.getElementById('logoutBtn');
+    const userInfo = document.getElementById('userInfo');
+    const userAvatar = document.getElementById('userAvatar');
+    const userName = document.getElementById('userName');
+    const loginPopup = document.getElementById('loginPopup');
+    const googleSignInBtn = document.getElementById('googleSignInBtn');
+    const skipLoginBtn = document.getElementById('skipLoginBtn');
+    let skipLoginSelected = false;
+    
+    function showLoginModal() { 
+        if (!skipLoginSelected && !localStorage.getItem('skipLoginPermanently') && !currentUser) {
+            loginPopup.classList.remove('hidden');
+        } 
+    }
+    
+    function closeLoginModal() { loginPopup.classList.add('hidden'); }
+    
+    function skipLogin() { 
+        skipLoginSelected = true; 
+        localStorage.setItem('skipLoginPermanently', 'true'); 
+        closeLoginModal(); 
+    }
+    
+    async function handleGoogleLogin() {
+        try {
+            const result = await signInWithPopup(auth, provider);
+            updateUI(result.user);
+            closeLoginModal();
+            setTimeout(() => location.reload(), 500);
+        } catch (error) {
+            console.error('Login error:', error);
+            if (error.code === 'auth/popup-blocked') {
+                alert('⚠️ Popup blocked! Please allow popups.');
+            } else if (error.code === 'auth/unauthorized-domain') {
+                alert('⚠️ Add dreamking627-png.github.io to Firebase Authorized domains');
+            } else if (error.code !== 'auth/cancelled-popup-request') {
+                alert('Login failed: ' + error.message);
+            }
+        }
+    }
+    
+    async function handleLogout() {
+        try {
+            await signOut(auth);
+            updateUI(null);
+            localStorage.removeItem('skipLoginPermanently');
+            skipLoginSelected = false;
+            setTimeout(() => location.reload(), 500);
+        } catch (error) {
+            console.error('Logout error:', error);
+        }
+    }
+    
+    function updateUI(user) {
+        if (user) {
+            currentUser = user;
+            loginBtn.style.display = 'none';
+            userInfo.classList.remove('auth-section-hidden');
+            userInfo.classList.add('auth-section-visible');
+            userAvatar.src = user.photoURL || 'https://via.placeholder.com/32';
+            userName.textContent = (user.displayName || user.email || 'User').substring(0, 20);
+            localStorage.setItem('userId', user.uid);
+        } else {
+            currentUser = null;
+            loginBtn.style.display = 'flex';
+            userInfo.classList.add('auth-section-hidden');
+            userInfo.classList.remove('auth-section-visible');
+            localStorage.removeItem('userId');
+        }
+    }
+    
+    onAuthStateChanged(auth, (user) => { updateUI(user); });
+    
+    loginBtn.onclick = () => { skipLoginSelected = false; showLoginModal(); };
+    logoutBtn.onclick = handleLogout;
+    googleSignInBtn.onclick = handleGoogleLogin;
+    skipLoginBtn.onclick = skipLogin;
+    
+    window.addEventListener('load', () => {
+        setTimeout(() => {
+            if (!localStorage.getItem('skipLoginPermanently') && !currentUser && !skipLoginSelected) {
+                showLoginModal();
+            }
+        }, 1000);
+    });
+    
+    window.showLoginModal = showLoginModal;
+    window.closeLoginModal = closeLoginModal;
+    console.log('Firebase Auth initialized on homepage');
+</script>
+
+<script>
+    // Dark Mode
+    function initDarkMode() {
+        const saved = localStorage.getItem('darkMode');
+        const toggle = document.getElementById('darkModeToggle');
+        if (saved === 'enabled') { document.body.classList.add('dark-mode'); toggle.textContent = '☀️'; } 
+        else { document.body.classList.remove('dark-mode'); toggle.textContent = '🌙'; }
+        toggle.addEventListener('click', () => {
+            document.body.classList.toggle('dark-mode');
+            localStorage.setItem('darkMode', document.body.classList.contains('dark-mode') ? 'enabled' : 'disabled');
+            toggle.textContent = document.body.classList.contains('dark-mode') ? '☀️' : '🌙';
+        });
+    }
+    
+    const chapters = [
+        { id: 1, en: "Environment: An Introduction & Sustainable Development", hi: "पर्यावरण : एक परिचय एवं धारणीय विकास" },
+        { id: 2, en: "Biosphere and Biome", hi: "जीवमंडल एवं बायोम" },
+        { id: 3, en: "Ecology & Eco-system", hi: "पारिस्थितिकी एवं पारितंत्र" },
+        { id: 4, en: "Types of Eco-system and Transmission of Materials", hi: "पारितंत्र के प्रकार एवं पदार्थों का संचरण" },
+        { id: 5, en: "Environmental Pollution and Conservation measure", hi: "पर्यावरणीय प्रदूषण एवं संरक्षण उपाय" },
+        { id: 6, en: "Bio-diversity and its Conservation", hi: "जैव-विविधता एवं उसका संरक्षण" },
+        { id: 7, en: "Sanctuary, Wetland and other Protected Region", hi: "अभयारण्य, आर्द्रभूमि एवं अन्य संरक्षित क्षेत्र" },
+        { id: 8, en: "Greenhouse effect, Global Warming and Climate Change", hi: "हरित गृह प्रभाव, वैश्विक तापन एवं जलवायु परिवर्तन" },
+        { id: 9, en: "Initiative to Control Ozone layer depletion", hi: "ओजोन परत क्षरण नियंत्रण हेतु पहल" },
+        { id: 10, en: "Energy Resource", hi: "ऊर्जा संसाधन" },
+        { id: 11, en: "Acid Rain, Water, Pollution and Conservation", hi: "अम्ल वर्षा, जल, प्रदूषण एवं संरक्षण" },
+        { id: 12, en: "Miscellaneous", hi: "विविध" }
+    ];
+    
+    function renderChapters() {
+        const grid = document.getElementById('chapterGrid');
+        grid.innerHTML = chapters.map(ch => `<a href="chapter-${ch.id}/index.html" class="chapter-card"><div class="chapter-number">अध्याय ${ch.id}</div><div class="chapter-title-en">${ch.en}</div><div class="chapter-title-hi">${ch.hi}</div></a>`).join('');
+    }
+    
+    initDarkMode();
+    renderChapters();
+</script>
+</body>
+</html>

@@ -1,0 +1,142 @@
+[
+  {
+    "id": 141,
+    "text": "भारत में 'Biological Diversity Hotspot' की परिभाषा में क्या शामिल नहीं है?",
+    "options": {
+      "a": "कम से कम 1500 Endemic Vascular Plants",
+      "b": "70% से अधिक मूल वनस्पति का नष्ट होना",
+      "c": "UNESCO द्वारा मान्यता",
+      "d": "उच्च जैव विविधता और उच्च खतरा"
+    },
+    "correctAnswer": "c",
+    "exam": "IAS (Pre) 2021",
+    "analysis": "Biodiversity Hotspot के लिए UNESCO की मान्यता आवश्यक नहीं है। Hotspot की परिभाषा Norman Myers ने दी थी जिसके अनुसार कम से कम 1500 Endemic Vascular Plants और 70% से अधिक मूल वनस्पति का नष्ट होना आवश्यक है। विश्व में 36 Hotspots हैं जो पृथ्वी के मात्र 2.5% क्षेत्र में हैं पर 50% से अधिक Endemic प्रजातियाँ हैं।",
+    "imageQuery": "Biodiversity Hotspot Norman Myers परिभाषा Endemic"
+  },
+  {
+    "id": 142,
+    "text": "भारत में 'Mangrove Alliance for Climate' में भारत की भूमिका क्या है?",
+    "options": {
+      "a": "संस्थापक सदस्य",
+      "b": "पर्यवेक्षक",
+      "c": "गैर-सदस्य",
+      "d": "अध्यक्ष"
+    },
+    "correctAnswer": "a",
+    "exam": "UPPCS (Pre) 2023",
+    "analysis": "भारत Mangrove Alliance for Climate (MAC) का संस्थापक सदस्य है जो 2022 में COP27 (मिस्र) में लॉन्च हुआ। इसका उद्देश्य विश्वभर में Mangrove वनों का संरक्षण और पुनर्स्थापन करना है। भारत में सुंदरबन (WB), भितरकनिका (Odisha) और मन्नार की खाड़ी प्रमुख Mangrove क्षेत्र हैं।",
+    "imageQuery": "Mangrove Alliance Climate COP27 भारत मैंग्रोव संरक्षण"
+  },
+  {
+    "id": 143,
+    "text": "Plitvice Lakes National Park (प्लिटविस झीलें) किस देश में है और UNESCO में कब शामिल हुआ?",
+    "options": {
+      "a": "स्लोवेनिया — 1980",
+      "b": "क्रोएशिया — 1979",
+      "c": "हंगरी — 1982",
+      "d": "ऑस्ट्रिया — 1975"
+    },
+    "correctAnswer": "b",
+    "exam": "RAS/RTS (Pre) 1992-93",
+    "analysis": "Plitvice Lakes National Park क्रोएशिया (Croatia) में स्थित है और 1979 में UNESCO विश्व धरोहर में शामिल हुआ। यह अपनी 16 झीलों और झरनों के लिए प्रसिद्ध है। परीक्षा में इसे भारतीय UNESCO Sites से अलग पहचानना महत्वपूर्ण है।",
+    "imageQuery": "Plitvice Lakes Croatia UNESCO 1979 झरना"
+  },
+  {
+    "id": 144,
+    "text": "भारत में 'Project Crocodile' कब शुरू किया गया था?",
+    "options": {
+      "a": "1972",
+      "b": "1975",
+      "c": "1978",
+      "d": "1982"
+    },
+    "correctAnswer": "b",
+    "exam": "UPPCS (Pre) 2018",
+    "analysis": "Project Crocodile 1975 में UNDP और FAO के सहयोग से भारत में शुरू किया गया था। इसका उद्देश्य घड़ियाल, मगरमच्छ और खारे पानी के मगरमच्छ का संरक्षण करना था। इस परियोजना के तहत Breeding Centres बनाए गए। National Chambal Sanctuary घड़ियाल का प्रमुख संरक्षण क्षेत्र है।",
+    "imageQuery": "Project Crocodile 1975 घड़ियाल मगरमच्छ भारत UNDP"
+  },
+  {
+    "id": 145,
+    "text": "भारत में 'Community Reserve' (सामुदायिक रिजर्व) की स्थापना किस अधिनियम के तहत होती है?",
+    "options": {
+      "a": "वन्यजीव संरक्षण अधिनियम 1972",
+      "b": "वन संरक्षण अधिनियम 1980",
+      "c": "जैव विविधता अधिनियम 2002",
+      "d": "पर्यावरण संरक्षण अधिनियम 1986"
+    },
+    "correctAnswer": "a",
+    "exam": "UPPCS (Pre) 2016",
+    "analysis": "Community Reserve की स्थापना वन्यजीव संरक्षण अधिनियम 1972 में 2002 में किए गए संशोधन के तहत होती है। यह Protected Area का नया प्रकार है जिसमें स्थानीय समुदाय की भागीदारी होती है। भारत में 219 से अधिक Community Reserves हैं। यह Private and Community Land पर भी हो सकता है।",
+    "imageQuery": "Community Reserve सामुदायिक रिजर्व वन्यजीव संरक्षण 2002"
+  },
+  {
+    "id": 146,
+    "text": "भारत में 'Conservation Reserve' (संरक्षण रिजर्व) किससे भिन्न है?",
+    "options": {
+      "a": "यह केवल Marine Areas के लिए है",
+      "b": "यह सरकारी भूमि पर है और NP और WLS के Buffer Zones की सुरक्षा करता है",
+      "c": "यह केवल पक्षियों के लिए है",
+      "d": "इसमें मानव निवास पूर्णतः वर्जित है"
+    },
+    "correctAnswer": "b",
+    "exam": "UPPCS (Pre) 2019",
+    "analysis": "Conservation Reserve सरकारी स्वामित्व वाली भूमि पर स्थापित होता है और यह मुख्यतः राष्ट्रीय उद्यानों और वन्यजीव अभयारण्यों के Buffer Zones की सुरक्षा के लिए बनाया जाता है। Community Reserve निजी और सामुदायिक भूमि पर हो सकता है। दोनों 2002 में WPA संशोधन से जुड़े हैं।",
+    "imageQuery": "Conservation Reserve Buffer Zone राष्ट्रीय उद्यान WPA 2002"
+  },
+  {
+    "id": 147,
+    "text": "भारत में 'Marine Protected Areas (MPAs)' की संख्या कितनी है?",
+    "options": {
+      "a": "50 से कम",
+      "b": "लगभग 100",
+      "c": "200 से अधिक",
+      "d": "500 से अधिक"
+    },
+    "correctAnswer": "b",
+    "exam": "UPPCS (Pre) 2022",
+    "analysis": "भारत में लगभग 100 Marine Protected Areas (MPAs) हैं जो भारतीय तट और द्वीपों के आसपास स्थित हैं। इनमें Marine National Parks, Marine Sanctuaries और Marine Biosphere Reserves शामिल हैं। Gulf of Mannar Marine Biosphere Reserve, Gulf of Kutch Marine NP और Mahatma Gandhi Marine NP प्रमुख हैं।",
+    "imageQuery": "Marine Protected Areas भारत समुद्री संरक्षण तटीय"
+  },
+  {
+    "id": 148,
+    "text": "भारत में 'Ecologically Sensitive Areas (ESA)' / 'Eco-Sensitive Zones' किस उद्देश्य से घोषित किए जाते हैं?",
+    "options": {
+      "a": "पर्यटन विकास के लिए",
+      "b": "Protected Areas के आसपास Buffer Zone बनाने और उन्हें औद्योगिक गतिविधियों से बचाने के लिए",
+      "c": "खनन क्षेत्रों की पहचान के लिए",
+      "d": "जनजातीय क्षेत्रों की सुरक्षा के लिए"
+    },
+    "correctAnswer": "b",
+    "exam": "UPPCS (Pre) 2021",
+    "analysis": "Ecologically Sensitive Areas / Eco-Sensitive Zones (ESZ) National Parks और Wildlife Sanctuaries के आसपास 10 किलोमीटर के क्षेत्र में घोषित किए जाते हैं। इनका उद्देश्य Protected Areas को औद्योगिक गतिविधियों, खनन, बड़े निर्माण कार्यों आदि से बचाना है। Supreme Court ने इन्हें अनिवार्य बनाया है।",
+    "imageQuery": "Eco-Sensitive Zone ESZ राष्ट्रीय उद्यान Buffer पर्यावरण संरक्षण"
+  },
+  {
+    "id": 149,
+    "text": "ग्रेट हिमालयन नेशनल पार्क में 'Sainj' और 'Tirthan' वन्यजीव अभयारण्य शामिल हैं। ये किस राज्य में हैं?",
+    "options": {
+      "a": "उत्तराखण्ड",
+      "b": "हिमाचल प्रदेश",
+      "c": "जम्मू-कश्मीर",
+      "d": "सिक्किम"
+    },
+    "correctAnswer": "b",
+    "exam": "UPPCS (Pre) 2019",
+    "analysis": "Sainj और Tirthan वन्यजीव अभयारण्य हिमाचल प्रदेश के कुल्लू जिले में ग्रेट हिमालयन नेशनल पार्क के अंतर्गत आते हैं। ग्रेट हिमालयन NP को 1999 में NP का दर्जा मिला और 2010 में Sainj और Tirthan WLS इसमें शामिल हुए। इसे 2014 में UNESCO विश्व धरोहर घोषित किया गया।",
+    "imageQuery": "Sainj Tirthan WLS ग्रेट हिमालयन NP हिमाचल प्रदेश कुल्लू"
+  },
+  {
+    "id": 150,
+    "text": "भारत में 'NTCA' (National Tiger Conservation Authority) की स्थापना किस वर्ष हुई?",
+    "options": {
+      "a": "1973",
+      "b": "1992",
+      "c": "2006",
+      "d": "2010"
+    },
+    "correctAnswer": "c",
+    "exam": "UPPCS (Pre) 2018",
+    "analysis": "NTCA (National Tiger Conservation Authority) की स्थापना 2006 में वन्यजीव संरक्षण अधिनियम 1972 में संशोधन के तहत की गई। इसका उद्देश्य Project Tiger का प्रबंधन और बाघ संरक्षण सुनिश्चित करना है। NTCA के अध्यक्ष पर्यावरण मंत्री होते हैं। इसका मुख्यालय नई दिल्ली में है।",
+    "imageQuery": "NTCA National Tiger Conservation Authority 2006 नई दिल्ली"
+  }
+]

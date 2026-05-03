@@ -1,0 +1,142 @@
+[
+  {
+    "id": 151,
+    "text": "भारत में 'Van Dhan Scheme' किससे संबंधित है?",
+    "options": {
+      "a": "वन्यजीव संरक्षण से",
+      "b": "जनजातियों के वन उत्पाद आधारित आजीविका से",
+      "c": "वन भूमि पर खेती से",
+      "d": "वन पर्यटन से"
+    },
+    "correctAnswer": "b",
+    "exam": "UPPCS (Pre) 2020",
+    "analysis": "Van Dhan Scheme जनजातियों (Tribals) के वन उत्पाद (Minor Forest Produce) आधारित आजीविका को बढ़ाने के लिए है। इसे TRIFED (Tribal Cooperative Marketing Federation) द्वारा चलाया जाता है। यह जनजातियों को वन उत्पादों का उचित मूल्य दिलाने में मदद करती है।",
+    "imageQuery": "Van Dhan Scheme जनजाति वन उत्पाद TRIFED"
+  },
+  {
+    "id": 152,
+    "text": "भारत में हाथियों की सर्वाधिक संख्या किस राज्य में है?",
+    "options": {
+      "a": "केरल",
+      "b": "असम",
+      "c": "कर्नाटक",
+      "d": "तमिलनाडु"
+    },
+    "correctAnswer": "c",
+    "exam": "UPPCS (Pre) 2020",
+    "analysis": "भारत में हाथियों की सर्वाधिक संख्या कर्नाटक में है जहाँ लगभग 6000 से अधिक हाथी हैं। असम दूसरे और केरल तीसरे स्थान पर हैं। भारत में कुल लगभग 29000-30000 एशियाई हाथी हैं जो विश्व की एशियाई हाथियों की आबादी का लगभग 60% है।",
+    "imageQuery": "कर्नाटक हाथी सर्वाधिक एशियाई हाथी भारत"
+  },
+  {
+    "id": 153,
+    "text": "Asiatic Cheetah और African Cheetah में क्या अंतर है?",
+    "options": {
+      "a": "कोई अंतर नहीं है",
+      "b": "Asiatic Cheetah ईरान में पाया जाता है और African Cheetah अफ्रीका में — दोनों उप-प्रजातियाँ हैं",
+      "c": "Asiatic Cheetah विलुप्त हो चुका है",
+      "d": "African Cheetah अधिक तेज़ दौड़ता है"
+    },
+    "correctAnswer": "b",
+    "exam": "UPPCS (Pre) 2023",
+    "analysis": "Asiatic Cheetah (Acinonyx jubatus venaticus) वर्तमान में केवल ईरान में बचा है और Critically Endangered है। African Cheetah (Acinonyx jubatus) अफ्रीका में पाया जाता है। भारत में 2022 में जो चीते लाए गए वे African Cheetah हैं क्योंकि Asiatic Cheetah की संख्या बहुत कम है और वे ईरान से नहीं दिए गए।",
+    "imageQuery": "Asiatic Cheetah African Cheetah ईरान अफ्रीका अंतर"
+  },
+  {
+    "id": 154,
+    "text": "भारत में सबसे पुरानी Tiger Reserve कौन सी है?",
+    "options": {
+      "a": "कान्हा Tiger Reserve",
+      "b": "जिम कॉर्बेट Tiger Reserve",
+      "c": "मानस Tiger Reserve",
+      "d": "रणथम्भौर Tiger Reserve"
+    },
+    "correctAnswer": "b",
+    "exam": "UPPCS (Pre) 2016",
+    "analysis": "जिम कॉर्बेट टाइगर रिजर्व 1973 में प्रोजेक्ट टाइगर के प्रारंभिक 9 रिजर्वों में शामिल थी और यह भारत की पहली Tiger Reserve है। यह 1936 से राष्ट्रीय उद्यान भी है — इसलिए यह देश का सबसे पुराना दोनों — NP और Tiger Reserve दोनों है। यह उत्तराखण्ड के नैनीताल और पौड़ी जिलों में है।",
+    "imageQuery": "जिम कॉर्बेट Tiger Reserve 1973 पहली उत्तराखण्ड"
+  },
+  {
+    "id": 155,
+    "text": "भारत में 'Ramgarh Vishdhari Tiger Reserve' किस राज्य में है?",
+    "options": {
+      "a": "मध्य प्रदेश",
+      "b": "उत्तर प्रदेश",
+      "c": "राजस्थान",
+      "d": "छत्तीसगढ़"
+    },
+    "correctAnswer": "c",
+    "exam": "UPPCS (Pre) 2022",
+    "analysis": "रामगढ़ विषधारी टाइगर रिजर्व राजस्थान के बूँदी जिले में स्थित है और 2021 में भारत का 52वाँ टाइगर रिजर्व बना। यह रणथम्भौर और मुकुंद्रा हिल्स Tiger Reserves को जोड़ने वाले Corridor पर स्थित है। इसके बाद रानीपुर (UP) 53वाँ और वीरांगना दुर्गावती (MP) 54वाँ Tiger Reserve बना।",
+    "imageQuery": "रामगढ़ विषधारी Tiger Reserve राजस्थान बूँदी 52वाँ"
+  },
+  {
+    "id": 156,
+    "text": "भारत में 'Green Corridor' (हरित गलियारा) किस उद्देश्य से बनाया जाता है?",
+    "options": {
+      "a": "सड़क परिवहन के लिए",
+      "b": "वन्यजीवों की एक संरक्षित क्षेत्र से दूसरे में आवाजाही के लिए",
+      "c": "सौर ऊर्जा पारेषण के लिए",
+      "d": "कृषि भूमि संरक्षण के लिए"
+    },
+    "correctAnswer": "b",
+    "exam": "UPPCS (Pre) 2020",
+    "analysis": "Green Corridor (Wildlife Corridor) वन्यजीवों को एक संरक्षित क्षेत्र से दूसरे में आवाजाही की सुविधा देने के लिए बनाया जाता है। ये Habitat Fragmentation की समस्या को कम करते हैं। Sahyadri-Konkan Corridor, Elephant Corridors और Tiger Corridors प्रमुख उदाहरण हैं।",
+    "imageQuery": "Green Corridor वन्यजीव गलियारा Habitat Fragmentation भारत"
+  },
+  {
+    "id": 157,
+    "text": "भारत में 'SAVE' (Saving Asia's Vultures from Extinction) कार्यक्रम किसके लिए चलाया गया?",
+    "options": {
+      "a": "बाघ संरक्षण",
+      "b": "गिद्ध संरक्षण",
+      "c": "हाथी संरक्षण",
+      "d": "गंगा डॉल्फिन संरक्षण"
+    },
+    "correctAnswer": "b",
+    "exam": "UPPCS (Pre) 2019",
+    "analysis": "SAVE कार्यक्रम एशियाई गिद्धों के संरक्षण के लिए चलाया जाता है। भारत में गिद्धों की संख्या में भारी गिरावट Diclofenac Sodium (पशुओं में दर्दनाशक दवा) के कारण आई जो गिद्धों के लिए घातक है। 2006 में Diclofenac पर पशुओं में प्रतिबंध लगाया गया। गिद्ध Ecosystem के लिए अत्यंत महत्वपूर्ण हैं।",
+    "imageQuery": "SAVE गिद्ध संरक्षण Diclofenac एशिया भारत"
+  },
+  {
+    "id": 158,
+    "text": "Dugong को 'Sea Cow' क्यों कहते हैं?",
+    "options": {
+      "a": "इसकी आवाज़ गाय जैसी होती है",
+      "b": "यह समुद्री घास चरता है जैसे गाय घास चरती है",
+      "c": "इसका आकार गाय जैसा है",
+      "d": "यह दूध देता है"
+    },
+    "correctAnswer": "b",
+    "exam": "UPPCS (Pre) 2021",
+    "analysis": "Dugong को 'Sea Cow' इसलिए कहते हैं क्योंकि यह समुद्र में समुद्री घास (Seagrass) चरता है ठीक उसी प्रकार जैसे गाय जमीन पर घास चरती है। यह एकमात्र शाकाहारी समुद्री स्तनपायी है। इसका वैज्ञानिक नाम Dugong dugon है और यह WPA 1972 की Schedule I में है।",
+    "imageQuery": "Dugong Sea Cow समुद्री घास शाकाहारी जानवर"
+  },
+  {
+    "id": 159,
+    "text": "भारत में Red Panda (लाल पांडा) संरक्षण के लिए कौन सा कार्यक्रम चलाया जाता है?",
+    "options": {
+      "a": "Project Red Panda",
+      "b": "Red Panda Network",
+      "c": "Save Red Panda Programme",
+      "d": "उपर्युक्त सभी"
+    },
+    "correctAnswer": "b",
+    "exam": "UPPCS (Pre) 2022",
+    "analysis": "Red Panda Network एक अंतर्राष्ट्रीय संगठन है जो लाल पांडा के संरक्षण के लिए काम करता है। भारत में सिक्किम और उत्तराखण्ड में इसके प्रमुख आवास हैं। IUCN की Endangered श्रेणी में शामिल यह जानवर सिक्किम का राज्य पशु भी है। इसके संरक्षण में Community-based approach अपनाई जाती है।",
+    "imageQuery": "Red Panda लाल पांडा सिक्किम उत्तराखण्ड संरक्षण"
+  },
+  {
+    "id": 160,
+    "text": "भारत में 'Tiger State' किसे कहते हैं और क्यों?",
+    "options": {
+      "a": "उत्तराखण्ड — क्योंकि जिम कॉर्बेट यहाँ है",
+      "b": "मध्य प्रदेश — क्योंकि यहाँ सर्वाधिक बाघ और टाइगर रिजर्व हैं",
+      "c": "असम — क्योंकि काजीरंगा यहाँ है",
+      "d": "राजस्थान — क्योंकि रणथम्भौर यहाँ है"
+    },
+    "correctAnswer": "b",
+    "exam": "UPPCS (Pre) 2023",
+    "analysis": "मध्य प्रदेश को 'Tiger State' कहते हैं क्योंकि Tiger Census 2022 के अनुसार यहाँ सर्वाधिक बाघ (785) हैं और सर्वाधिक Tiger Reserves (6 — कान्हा, बांधवगढ़, पन्ना, सतपुड़ा, पेंच, संजय-दुबरी) हैं। 2023 में वीरांगना दुर्गावती 7वाँ Tiger Reserve बना। MP ने Karnataka को पछाड़कर यह खिताब वापस पाया।",
+    "imageQuery": "मध्य प्रदेश Tiger State बाघ Tiger Census 2022"
+  }
+]  
